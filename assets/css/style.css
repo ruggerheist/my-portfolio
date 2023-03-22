@@ -1,0 +1,40 @@
+:root {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+
+
+header {
+    width: 100%;
+    background-color: #202B39;
+    position: relative;
+    height: 250px;
+    
+}
+
+#me {
+    display: block;
+    width: 150px;
+    border: .5px solid #215A69;
+    margin: auto;
+}
+
+h1 {
+    font-size: 45px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    text-align: right;
+    font-size: 26px;
+    color: #215A69;
+}
+
+body {
+    position: relative;
+    background-color: #215A69;
+}
