@@ -21,10 +21,8 @@ body {
 header {
     height: 191px;
     width: 100%;
-   /* margin: -8px;
-    padding: 7px;*/
     background-color: #202B39;
-    /*position: relative;*/
+    display: flex;
 
 }
 
@@ -37,10 +35,9 @@ header {
 
 #header-right {
     height: 50%;
-    width: 50%;
-    margin: 0px;
     display: flex;
     justify-content: flex-end;
+    flex: 1;
 }
 
 h1 {
@@ -57,19 +54,10 @@ h1 {
 
 }
 
-
-/*3/22 WORK STOPPED HERE 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    font-size: 26px;
-    color: red;
-}*/
-
 li {
     display: inline;
     color: red;
+    font-size: 25px;
 }
 
 .main-content {
