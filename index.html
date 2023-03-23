@@ -9,60 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-
     <title>Rick Heist's Portfolio</title>
 </head>
 
 <body>
-
     <header>
-        <h1>My Portfolio</h1>
-        <img id="me" src="./assets/img/myself.jfif" alt="Picture of Me">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a> <!--change to projects-->
-                </li>
-                <li>
-                    <a href="#resume">Resume</a> <!--maybe delete resume-->
-                </li>
-                <li>
+        <div id="header-left">
+            <h1>My Portfolio</h1>
+                <img id="me" src="./assets/img/myself.jfif" alt="Picture of Me">
+        </div>
+        <div id="header-right">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a> 
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a> <!--maybe delete resume-->
+                    </li>
+                    <li>
                     <a href="#contact-me">Contact Me</a> <!--add form-->
-                </li>
-            </ul>
-        </nav>
-    
+                    </li>
+                </ul>
+            </nav>
+        </div>    
     </header>
 
-    
-    
-
-    <div class="hero"></div>
-
     <main>
-        <section id="about-me" class="main-content">
-            <h2>About Me</h2>
-                <p>In late 2022, after pestering my friend to teach me coding, I took it upon myself to learn. I enrolled in the UPenn edX Full Stack Web Development program and have been working towards becoming a developer. Currently, I am working on flexbox and responsive design. It is my ultimate goal to finish this program and gain employment with a tech firm to continue growing and learning as a developer.
+        <h2 id="about-me" class="main-content">About Me</h2>
+                <p id="text-wrap">In late 2022, after pestering my friend to teach me coding, I took it upon myself to learn. I enrolled in the UPenn edX Full Stack Web Development program and have been working towards becoming a developer. Currently, I am working on flexbox and responsive design. It is my ultimate goal to finish this program and gain employment with a tech firm to continue growing and learning as a developer.
                 </p>
-        </section>
-
-        <section id="projects" class="main-content">
-            <h2>Projects</h2>
-                <p>A collection of the projects portraying the skills I've learned.</p>
-                <div id="code-refactor"> <a href="https://github.com/ruggerheist/code-refactor"> Code Refactor</a> 
-                </div>
-                
-        </section> 
-        <section id="resume" class="main-content">
-            <h2>Resume</h2>
-        </section>
-
-        <aside id="side-bar">
+        <h2 id="projects" class="main-content">Projects</h2>
+                <p id="text-wrap">A collection of the projects portraying the skills I've learned.</p>
+                <!--<div id="code-refactor"> <a href="https://github.com/ruggerheist/code-refactor"> Code Refactor</a> 
+                </div>-->
+        <h2 id="resume" class="main-content">Resume</h2>
+        <section id="side-bar">
             <div>
-                <h3>About Me</h3>
+                <h3>About Me</h3>4
             </div>
             <div>
                 <h3>Projects</h3> <!--add multiple projects-->
@@ -73,7 +60,10 @@
             <div>
                 <h3>Contact Me</h3>
             </div>
-        </aside>
+            <form>
+
+            </form>
+        </section>
         
     </main>
     
