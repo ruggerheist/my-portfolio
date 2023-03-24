@@ -8,16 +8,15 @@
 :root {
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    
+        
 }
 
 body {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    /*background-color: #215A69;*/
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    background-color: #215A69;
 }
 
 header {
@@ -27,11 +26,19 @@ header {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(32,43,57,1) 35%);
     display: flex;
+}
 
+#me { 
+    position: relative;
+    left: 30px;
+    height: 125px;
+    width: 125px;
+    border-radius: 25%;
 }
 
 #header-left {
     display: flex;
+    flex: 0 0;
     justify-content: flex-start;
     font-size: 45px;
 
@@ -42,35 +49,69 @@ header {
     display: flex;
     justify-content: flex-end;
     flex: 1;
+    min-width: max-content;
 }
+
+/* #header-right li {
+    display: flex;
+    min-width: min-content;
+
+} */
 
 h1 {
     font-size: 44px;
     color: gray;
 }
 
-#me {
-    position: relative;
-    left: 30px;
-    height: 125px;
-    width: 125px;
-    border-radius: 25%;
-
-}
-
 li {
     display: inline;
-    color: red;
+    /* color: red; */
     font-size: 25px;
 }
 
-
-
-#about-me {    
+main {
     display: flex;
 }
 
-p {
+#side-bar {
+    border: 1px solid black;
+    display: flex;
+    height: 920px;
+    width: auto;
+    flex-direction: column;
+    flex-grow: 1;
+ 
+}
+
+h2{
+    font-size: 70px;
+}
+
+#about-me {
+    display: flex;
+    height: 200px;
+    
+}
+
+#projects {
+    display: flex;
+    height: 650px;
+}
+
+#contact-me {
+    display: flex;
+    height: 300px;
+    font-size: 50px;
+}
+
+#article {    
+    display: flex;
+    flex: 1 0 200px;
+    justify-content: flex-end;
+    overflow-wrap: break-word;
+}
+
+/* p {
     display: flex;
     justify-content: flex-end;
     inline-size: 300px;
@@ -78,13 +119,8 @@ p {
     font-size: 16px;    
     margin: 0px;
 }
+ */
 
-#side-bar {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
- 
-}
 
 /* footer {
     font-size: 16px;
