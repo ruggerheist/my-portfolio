@@ -15,37 +15,30 @@
 <body>
     <header>
         <div id="header-left">
-            <h1>My Portfolio</h1>
+            <h1>Project Collection</h1>
                 <img id="me" src="./assets/img/myself.jfif" alt="Picture of Me">
         </div>
-        <div id="header-right"> 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a> 
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a> <!--maybe delete resume-->
-                    </li>
-                    <li>
+        <nav id="header-right">
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a> 
+                </li>
+                <li>
+                    <a href="#resume">Resume</a> <!--maybe delete resume-->
+                </li>
+                <li>
                     <a href="#contact-me">Contact Me</a> <!--add form-->
-                    </li>
-                </ul>
-            </nav>
-        </div>    
+                </li>
+            </ul>
+        </nav>
+           
     </header>
 
     <main>
-        <form>
-            <div class="main-content"></div>
-                <p id="about-me" class="text">In late 2022, after pestering my friend to teach me coding, I took it upon myself to learn. I enrolled in the UPenn edX Full Stack Web Development program and have been working towards becoming a developer. Currently, I am working on flexbox and responsive design. It is my ultimate goal to finish this program and gain employment with a tech firm to continue growing and learning as a developer.
-                </p>                 
-            
-                <!--<div id="code-refactor"> <a href="https://github.com/ruggerheist/code-refactor"> Code Refactor</a> -->
-        </form>        
+                        <!--<div id="code-refactor"> <a href="https://github.com/ruggerheist/code-refactor"> Code Refactor</a> -->     
         <aside id="side-bar">
             <div>
                 <h3>About Me</h3>
@@ -60,13 +53,18 @@
                 <h3>Contact Me</h3>
             </div>
         </aside>
+        <section  id="about-me"> <!-- flip about me and side bar -->
+            <p>In late 2022, after pestering my friend to teach me coding, I took it upon myself to learn. I enrolled in the UPenn edX Full Stack Web Development program and have been working towards becoming a developer. Currently, I am working on flexbox and responsive design. It is my ultimate goal to finish this program and gain employment with a tech firm to continue growing and learning as a developer.
+            </p>                 
+        </section>
         
     </main>
     
 
-    <footer class="footer">
+    <!-- <footer> Portfolio Created March 2023
         <div><a href="https://github.com/ruggerheist"> GitHub</a></div>
-    </footer>
-    
+        <form id="contact me"></form>
+    </footer> --> 
+    <!-- commented out until main is set -->
 </body>
 </html>
