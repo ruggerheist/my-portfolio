@@ -8,7 +8,7 @@
 :root {
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
-        
+            
 }
 
 body {
@@ -36,7 +36,7 @@ header {
     border-radius: 25%;
 }
 
-#header-left {
+.header-left {
     display: flex;
     flex: 0 0;
     justify-content: flex-start;
@@ -44,7 +44,7 @@ header {
 
 }
 
-#header-right {
+.header-right {
     height: 50%;
     display: flex;
     justify-content: flex-end;
@@ -52,11 +52,6 @@ header {
     min-width: max-content;
 }
 
-/* #header-right li {
-    display: flex;
-    min-width: min-content;
-
-} */
 
 h1 {
     font-size: 44px;
@@ -73,53 +68,65 @@ main {
     display: flex;
 }
 
-#side-bar {
-    border: 1px solid black;
+.side-bar {
     display: flex;
-    height: 920px;
-    width: auto;
+    height: 1100px;
+    width: 0px;
     flex-direction: column;
-    flex-grow: 1;
+    flex-grow: .5;
  
 }
 
 h2{
     font-size: 70px;
+    color: gray;
 }
 
 #about-me {
     display: flex;
-    height: 200px;
-    
+    height: 220px; 
+    justify-content: center;
 }
 
 #projects {
     display: flex;
-    height: 650px;
+    height: 760px;
+    justify-content: center;
+    color: rgb(145, 109, 109);
 }
 
 #contact-me {
     display: flex;
     height: 300px;
     font-size: 50px;
+    justify-content: center;
 }
 
 #article {    
     display: flex;
     flex: 1 0 200px;
-    justify-content: flex-end;
-    overflow-wrap: break-word;
+    flex-direction: column;           
 }
 
-/* p {
+p {
     display: flex;
-    justify-content: flex-end;
-    inline-size: 300px;
-    overflow-wrap: break-word;
-    font-size: 16px;    
-    margin: 0px;
+    width: 50%;
+    height: 220px;
+    font-size: 20px;
+    color: gray;
 }
- */
+
+img {
+    height: 450px;
+    width: 782px;
+}
+
+#project-1 {
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
 
 
 /* footer {
