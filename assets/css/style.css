@@ -116,9 +116,11 @@ p {
     color: gray;
 }
 
-img {
+#refactor {
     height: 450px;
     width: 782px;
+    padding: 1px;
+    box-shadow: 10px 10px 10px black;
 }
 
 #project-1 {
@@ -126,13 +128,48 @@ img {
     height: auto;
     width: auto;
     align-items: center;
+
 }
 
+.other-projects {
+    display: flex;
 
-/* footer {
+}
+
+#password {
+    height: 140px;
+    width: 220px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#computer {
+    height: 140px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#gitlab {
+    height: 140px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.container { /* stopped here */
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
     font-size: 16px;
+    color: gray;
 }
- */
+
 @media screen and (max-width: 900px) {
     header {
     height: 191px;
