@@ -11,6 +11,12 @@
             
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f71707;
+}
+
 body {
     position: relative;
     display: block;
@@ -77,7 +83,6 @@ main {
     width: 0px;
     flex-direction: column;
     flex-grow: .5;
- 
 }
 
 h2{
@@ -117,7 +122,7 @@ p {
     height: 220px;
     font-size: 20px;
     letter-spacing: 1.5;
-    color: beige;
+    color: rgb(224, 224, 196);
 }
 
 #refactor {
@@ -126,6 +131,8 @@ p {
     padding: 1px;
     box-shadow: 10px 10px 10px black;
 }
+
+#r
 
 #project-1 {
     display: flex;
@@ -137,7 +144,6 @@ p {
 
 .other-projects {
     display: flex;
-
 }
 
 #password {
@@ -163,40 +169,26 @@ p {
     box-shadow: 10px 10px 10px black;
 }
 
-.container { /* stopped here */
-    display: block;
-    margin-top: 20px;
+.container { 
+    display: flex;
+    margin-top: 130px;
     height: 20px;
-    width: 190px
-    
-}
-
-.contact:focus {
-    background-color: lightblue;
-}
-
-.form {
-    margin-top: 97px;
-    height: 20px;
-    width: 190px;
-}
-
-.contact {
-    height: 20px;
-    width: 190px;
-}
-
-#email {
-    margin-top: 13px;
+    width: 190px;          
 }
 
 button {
-    margin-left: 110px;
-    margin-top: 5px;
+    display: inline-block;
+    height: 50px;
+    background-color: rgb(172, 170, 168);
+    font-size: 25px;
+    text-decoration: none;          
 }
+
+button {width: 200px}
 
 button:hover {
     cursor: pointer;
+    background-color: rgb(110, 109, 109);
 }
 
 footer {
@@ -206,14 +198,18 @@ footer {
     color: gray;
 }
 
-/* @media screen and (max-width: 900px) {
-    header {
-    height: 191px;
-    width: 100%;
-    background-color: #202B39;
-    display: flex;
-    }
-} */
+@media screen and (max-width: 1024px) {
+
+}
+
+@media  screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
     
 
 
@@ -223,4 +219,4 @@ footer {
 
 
 
-/* TO DO: media queries, nav bar decoration, project hover function, email send function */
+/* TO DO: media queries, nav bar decoration, project hover function, */
