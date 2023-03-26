@@ -160,7 +160,39 @@ p {
 }
 
 .container { /* stopped here */
-    display: flex;
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+    width: 190px
+    
+}
+
+.contact:focus {
+    background-color: lightblue;
+}
+
+.form {
+    margin-top: 97px;
+    height: 20px;
+    width: 190px;
+}
+
+.contact {
+    height: 20px;
+    width: 190px;
+}
+
+#email {
+    margin-top: 13px;
+}
+
+button {
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 footer {
