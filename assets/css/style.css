@@ -22,7 +22,6 @@ body {
 header {
     height: 191px;
     width: 100%;
-    background-color: #202B39;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(32,43,57,1) 35%);
     display: flex;
@@ -58,10 +57,14 @@ h1 {
     color: gray;
 }
 
-li {
-    display: inline;
-    /* color: red; */
+nav ul li a {
+    color: red;
     font-size: 25px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
 }
 
 main {
@@ -113,7 +116,8 @@ p {
     width: 50%;
     height: 220px;
     font-size: 20px;
-    color: gray;
+    letter-spacing: 1.5;
+    color: beige;
 }
 
 #refactor {
@@ -202,12 +206,21 @@ footer {
     color: gray;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     header {
     height: 191px;
     width: 100%;
     background-color: #202B39;
     display: flex;
     }
-}
+} */
     
+
+
+
+
+
+
+
+
+/* TO DO: media queries, nav bar decoration, project hover function, email send function */
