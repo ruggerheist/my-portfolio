@@ -8,7 +8,6 @@
 :root {
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
-            
 }
 
 a:link,
@@ -46,7 +45,6 @@ header {
     flex: 0 0;
     justify-content: flex-start;
     font-size: 45px;
-
 }
 
 .header-right {
@@ -132,14 +130,11 @@ p {
     box-shadow: 10px 10px 10px black;
 }
 
-#r
-
 #project-1 {
     display: flex;
     height: auto;
     width: auto;
     align-items: center;
-
 }
 
 .other-projects {
@@ -198,25 +193,24 @@ footer {
     color: gray;
 }
 
-@media screen and (max-width: 1024px) {
-
-}
-
 @media  screen and (max-width: 768px) {
-
-    
+   /*  #refactor {
+        display: block;
+    } */
+    .side-bar {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 480px) {
-    
-}
     
 
 
 
 
 
+/* having a problem with media query and main image, blocks side bar on shrink and doesnt resize  */
 
 
-
-/* TO DO: media queries, nav bar decoration, project hover function, */
+/* TO DO: media queries, project hover function, */
