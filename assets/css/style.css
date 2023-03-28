@@ -166,6 +166,14 @@ p {
     box-shadow: 10px 10px 10px black;
 }
 
+#project-1 p { /* make text box */
+    
+}
+
+#project-1:hover::after {
+    content: "Code Refactor https://github.com/ruggerheist/code-refactor" /* style and move add for other 3 */
+}
+
 .container { 
     display: flex;
     margin-top: 107px;
@@ -204,4 +212,5 @@ footer {
 }
 
 
-/* add tooltip on img hover with link to repo */
+/* add tooltip on img hover with link to repo
+change header title */
