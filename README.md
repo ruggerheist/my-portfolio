@@ -3,11 +3,13 @@
 ## Description
 For this project, I created a portfolio to hold my most important projects related to my coding development. Included are links to 4 projects, a link to my GitHub, and a button to send me an email. A media query was also used to make this page mobile friendly. 
 
-Everything for this was written from scratch. It helped better my understanding of HTML and how my choices within the index effect what can be done with the stylesheet. Using flexbox was a big hurdle for this project that I was able to sort out with some help from classmates and instructors. 
+Everything for this was written from scratch. It helped better my understanding of HTML and how my choices within the index.html effect what can be done with the stylesheet. Using flexbox was a big hurdle for this project that I was able to sort out with some help from classmates and instructors. This portfolio will be periodically updated to included recent, completed projects.
 
 ## Usage
 ![website preview](/assets/img/Screenshot%202023-03-28%20231416.png)
 Hovering over the project images will reveal the individual project titles. 
+
+[Live link for portfolio](https://ruggerheist.github.io/my-portfolio/)
 
 ### Sources Used
 Used https://cssgradient.io/ to create header gradient.
