@@ -5,6 +5,9 @@ For this project, I created a portfolio to hold my most important projects relat
 
 Everything for this was written from scratch. It helped better my understanding of HTML and how my choices within the index effect what can be done with the stylesheet. Using flexbox was a big hurdle for this project that I was able to sort out with some help from classmates and instructors. 
 
+## Usage
+![website preview](/assets/img/Screenshot%202023-03-28%20231416.png)
+Hovering over the project images will reveal the individual project titles. 
 
 ### Sources Used
 Used https://cssgradient.io/ to create header gradient.
