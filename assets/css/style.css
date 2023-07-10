@@ -132,7 +132,7 @@ p {
     box-shadow: 10px 10px 10px black;
 }
 
-#project-1 {
+#project-2 {
     display: flex;
     height: auto;
     width: auto;
@@ -166,8 +166,8 @@ p {
     box-shadow: 10px 10px 10px black;
 }
 
-#project-1:hover::after {
-    content: "Recipedia";
+#project-2:hover::after {
+    content: "Musicale";
     position: absolute;
     background-color: rgb(0, 0, 0);
     font-size: 25px;
